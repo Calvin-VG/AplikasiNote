@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginNoteFragment">
+
+    <TextView
+        android:text="Login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:background="@drawable/ic_binar_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <EditText
+        android:id="@+id/et_masukkan_email_login"
+        android:hint="Masukkan Email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="35dp"/>
+
+    <EditText
+        android:id="@+id/et_masukkan_password_login"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_buat_akun"
+        android:text="Belum punya akun?"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

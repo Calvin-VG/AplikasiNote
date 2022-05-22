@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_component"
+    app:startDestination="@id/splashNoteFragment">
+
+    <fragment
+        android:id="@+id/splashNoteFragment"
+        android:name="com.example.aplikasinote.view.SplashNoteFragment"
+        android:label="fragment_splash_note"
+        tools:layout="@layout/fragment_splash_note" >
+        <action
+            android:id="@+id/action_splashNoteFragment_to_loginNoteFragment"
+            app:destination="@id/loginNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginNoteFragment"
+        android:name="com.example.aplikasinote.view.LoginNoteFragment"
+        android:label="fragment_login_note"
+        tools:layout="@layout/fragment_login_note" >
+        <action
+            android:id="@+id/action_loginNoteFragment_to_homeNoteFragment"
+            app:destination="@id/homeNoteFragment" />
+        <action
+            android:id="@+id/action_loginNoteFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeNoteFragment"
+        android:name="com.example.aplikasinote.view.HomeNoteFragment"
+        android:label="fragment_home_note"
+        tools:layout="@layout/fragment_home_note" >
+        <action
+            android:id="@+id/action_homeNoteFragment_to_addNewNoteFragment"
+            app:destination="@id/addNewNoteFragment" />
+        <action
+            android:id="@+id/action_homeNoteFragment_to_detailNoteFragment"
+            app:destination="@id/detailNoteFragment" />
+        <action
+            android:id="@+id/action_homeNoteFragment_to_profileNoteFragment"
+            app:destination="@id/profileNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.aplikasinote.view.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginNoteFragment"
+            app:destination="@id/loginNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewNoteFragment"
+        android:name="com.example.aplikasinote.view.AddNewNoteFragment"
+        android:label="fragment_add_new_note"
+        tools:layout="@layout/fragment_add_new_note" />
+    <fragment
+        android:id="@+id/detailNoteFragment"
+        android:name="com.example.aplikasinote.view.DetailNoteFragment"
+        android:label="fragment_detail_note"
+        tools:layout="@layout/fragment_detail_note" />
+    <fragment
+        android:id="@+id/profileNoteFragment"
+        android:name="com.example.aplikasinote.view.ProfileNoteFragment"
+        android:label="fragment_profile_note"
+        tools:layout="@layout/fragment_profile_note" />
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/drawable-v24/edit_text_bg.xml" value="0.103" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/drawable-v24/ic_add.xml" value="0.103" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/drawable-v24/ic_update.xml" value="0.103" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/activity_detail_note.xml" value="0.1953125" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/activity_home_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/activity_login_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/activity_profile_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_add_new_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_delete_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_detail_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_home_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_login_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_profile_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_register.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_splash_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/fragment_update_note.xml" value="0.209375" />
+        <entry key="..\:/Kampus Merdeka/Binar Academy/Chapter 7/AplikasiNote/app/src/main/res/layout/item_adapter_note.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
